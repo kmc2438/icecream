@@ -160,6 +160,7 @@ class _IcecreamAppState extends State<IcecreamApp> {
           receipt =
               '$food  ${foods[food]}円\n'
               'フルーツ: ${fruits.isEmpty ? 'なし' : fruits.join(' ')}\n'
+              'デコレーション: ${deco == 'なし' ? 'なし' : '$deco × $decoCount'}\n'
               '🥄 スプーン: ${spoon ? 'あり' : 'なし'}\n'
               '🧻 紙ナプキン: ${napkin ? 'あり' : 'なし'}\n'
               '税抜: $subtotal 円 / 消費税（10%）: $tax 円\n'
